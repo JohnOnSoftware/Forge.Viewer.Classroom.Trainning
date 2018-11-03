@@ -1,13 +1,9 @@
 AutodeskNamespace('Viewing.ClassroomTrainning')
 
 Viewing.ClassroomTrainning.AdnPropertyPanel = function (viewer) {
-  var _panel = this
-
-  var _viewer = viewer
-
-  var _selectedNodeId = ''
-
-  viewer.getMo
+  const _panel = this
+  const _viewer = viewer
+  const _selectedNodeId = ''
 
   Autodesk.Viewing.Extensions.ViewerPropertyPanel.call(
     _panel,
@@ -44,8 +40,7 @@ Viewing.ClassroomTrainning.AdnPropertyPanel = function (viewer) {
   }
 }
 
-Viewing.ClassroomTrainning.AdnPropertyPanel.prototype =
-  Object.create(
+Viewing.ClassroomTrainning.AdnPropertyPanel.prototype = Object.create(
     Autodesk.Viewing.Extensions.ViewerPropertyPanel.prototype)
 
 Viewing.ClassroomTrainning.AdnPropertyPanel.prototype.constructor =
