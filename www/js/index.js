@@ -41,7 +41,7 @@ $(document).ready( function(){
         'refreshToken': getToken
     };
     
-    var documentId = 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6cGVyc2lzdGVudGJ1Y2tldGZvcmpvaG4vTXlSdnRTYW1wbGUucnZ0';
+    var documentId = 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6ZXh0cmFjdC1hdXRvZGVzay1pby0yMDE3ejhmZ2Q3c296MjdkZ3NpZzFnM2RmMm5lbGt4Y2h0YXYvd29ya3Nob3BfYmltLnJ2dA';
     var config3d = {
         extensions: ['MyExtension']
     };

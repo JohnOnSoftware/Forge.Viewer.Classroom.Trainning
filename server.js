@@ -24,7 +24,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 var favicon = require('serve-favicon');
 var api = require('./routes/token.js');
-var db = require('./routes/database.js');
+// var db = require('./routes/database.js');
 var express = require('express');
 
 var app = express();
@@ -32,7 +32,7 @@ var app = express();
 app.use('/', express.static(__dirname + '/www'));
 app.use(favicon(__dirname + '/www/img/favicon.ico'));
 app.use('/api', api);
-app.use('/db', db);
+// app.use('/db', db);
 
 
 app.set('port', process.env.PORT || 3000);
